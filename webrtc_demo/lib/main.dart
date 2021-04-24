@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
   _initData() async {
     _prefs = await SharedPreferences.getInstance();
     setState(() {
-      _server = _prefs.getString('server') ?? '127.0.0.1';
+      _server = _prefs.getString('server') ?? 'mirunamu.studio';
     });
   }
 
@@ -79,9 +79,9 @@ class _MyAppState extends State<MyApp> {
           Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (BuildContext context) => _datachannel
-                      ? DataChannelSample(host: _server)
-                      : CallSample(host: _server)));
+                  builder: (BuildContext context) => CallSample(host: _server)
+              )
+          );
         }
       }
     });
