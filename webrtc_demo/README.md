@@ -1,16 +1,18 @@
-# webrtc_demo
+# flutter-webrtc-demo
+Flutter WebRTC plugin Demo
 
-A new Flutter project.
+Online Demo: https://demo.cloudwebrtc.com:8086/
 
-## Getting Started
+## Usage
+- `git clone https://github.com/cloudwebrtc/flutter-webrtc-demo`
+- `cd flutter-webrtc-demo`
+- `flutter packages get`
+- `flutter run`
+## Note
+- If you want to test `P2P Call Sample`, please use the [webrtc-flutter-server](https://github.com/cloudwebrtc/flutter-webrtc-server), and enter your server address into the example app.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## screenshots
+# iOS
+<img width="180" height="320" src="https://raw.githubusercontent.com/cloudwebrtc/flutter-webrtc-demo/master/screenshots/flutter-webrtc-ios-example.png"/> <img width="180" height="320" src="https://raw.githubusercontent.com/cloudwebrtc/flutter-webrtc-demo/master/screenshots/ios-01.jpeg"/> <img width="180" height="320" src="https://raw.githubusercontent.com/cloudwebrtc/flutter-webrtc-demo/master/screenshots/ios-02.jpeg"/>
+# Android
+<img width="180" height="320" src="https://raw.githubusercontent.com/cloudwebrtc/flutter-webrtc-demo/master/screenshots/flutter-webrtc-android-example.png"/> <img width="180" height="320" src="https://raw.githubusercontent.com/cloudwebrtc/flutter-webrtc-demo/master/screenshots/android-01.png"/> <img width="180" height="320" src="https://raw.githubusercontent.com/cloudwebrtc/flutter-webrtc-demo/master/screenshots/android-02.png"/>
